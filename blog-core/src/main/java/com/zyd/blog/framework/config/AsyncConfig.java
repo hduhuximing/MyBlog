@@ -19,10 +19,10 @@ import java.util.concurrent.Future;
 /**
  * 异步线程配置
  *
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
+
  * @version 1.0
- * @website https://www.zhyd.me
- * @date 2018/4/28 11:04
+
+ * @date 2019/4/28 11:04
  * @since 1.0
  */
 @Slf4j

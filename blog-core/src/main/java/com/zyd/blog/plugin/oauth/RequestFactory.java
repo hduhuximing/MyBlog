@@ -9,9 +9,9 @@ import java.util.Map;
 /**
  * request工厂类， 生产具体的authRequest
  *
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
+
  * @version 1.0
- * @website https://www.zhyd.me
+
  * @date 2019/5/18 16:11
  * @since 1.8
  */

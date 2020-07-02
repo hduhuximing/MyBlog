@@ -23,12 +23,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.Serializable;
 import java.lang.reflect.Method;
 
-/**
- * @author ming
- * @version 1.0
- * @date 2020/4/17 12:11 下午
- * @description
- */
+
 @Component
 @Slf4j
 @Aspect

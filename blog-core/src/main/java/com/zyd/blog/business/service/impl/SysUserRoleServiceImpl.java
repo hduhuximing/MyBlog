@@ -2,10 +2,8 @@ package com.zyd.blog.business.service.impl;
 
 import com.zyd.blog.business.entity.UserRole;
 import com.zyd.blog.business.service.SysUserRoleService;
-import com.zyd.blog.framework.holder.RequestHolder;
 import com.zyd.blog.persistence.beans.SysUserRole;
 import com.zyd.blog.persistence.mapper.SysUserRoleMapper;
-import com.zyd.blog.util.IpUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
@@ -21,10 +19,10 @@ import java.util.List;
 /**
  * 用户角色
  *
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
+
  * @version 1.0
- * @website https://www.zhyd.me
- * @date 2018/4/16 16:26
+
+ * @date 2019/4/16 16:26
  * @since 1.0
  */
 @Service

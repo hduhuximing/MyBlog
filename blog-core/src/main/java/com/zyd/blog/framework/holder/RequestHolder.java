@@ -1,8 +1,6 @@
 package com.zyd.blog.framework.holder;
 
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
@@ -12,10 +10,10 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 /**
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
+
  * @version 1.0
- * @website https://www.zhyd.me
- * @date 2018/4/16 16:26
+
+ * @date 2019/4/16 16:26
  * @since 1.0
  */
 @Slf4j

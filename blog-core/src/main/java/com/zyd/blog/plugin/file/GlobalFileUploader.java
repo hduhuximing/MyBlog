@@ -11,9 +11,9 @@ import java.io.File;
 import java.io.InputStream;
 
 /**
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
+
  * @version 1.0
- * @website https://www.zhyd.me
+
  * @date 2019/2/11 13:47
  * @since 1.8
  * @description  uploader有两步，第一步上传数据，第二部保存路径到数据库中

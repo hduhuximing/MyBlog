@@ -13,10 +13,10 @@ import java.util.List;
 /**
  * AOP相关的工具
  *
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
+
  * @version 1.0
- * @website https://www.zhyd.me
- * @date 2018/6/29 11:59
+
+ * @date 2019/6/29 11:59
  * @since 1.0
  */
 public enum AspectUtil {

@@ -1,6 +1,5 @@
 package com.zyd.blog.business.entity;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.zyd.blog.business.enums.CommentStatusEnum;
@@ -12,13 +11,7 @@ import org.springframework.util.StringUtils;
 
 import java.util.Date;
 
-/**
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
- * @version 1.0
- * @website https://www.zhyd.me
- * @date 2018/4/16 16:26
- * @since 1.0
- */
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Comment {
     private BizComment bizComment;

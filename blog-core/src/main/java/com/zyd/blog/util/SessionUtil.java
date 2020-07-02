@@ -9,10 +9,10 @@ import java.util.UUID;
 /**
  * Session工具类
  *
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
+
  * @version 1.0
- * @website https://www.zhyd.me
- * @date 2018/4/18 11:48
+
+ * @date 2019/4/18 11:48
  * @since 1.0
  */
 public class SessionUtil {

@@ -7,10 +7,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
+
  * @version 1.0
- * @website https://www.zhyd.me
- * @date 2018/8/07 18:13
+
+ * @date 2019/8/07 18:13
  * @since 1.0
  */
 public class XssKillerUtil {

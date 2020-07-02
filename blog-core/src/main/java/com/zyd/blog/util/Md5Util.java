@@ -1,18 +1,16 @@
 package com.zyd.blog.util;
 
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.security.MessageDigest;
 
 /**
  * MD5加密工具类
  *
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
+
  * @version 1.0
- * @website https://www.zhyd.me
- * @date 2018/4/18 11:48
+
+ * @date 2019/4/18 11:48
  * @since 1.0
  */
 @Slf4j

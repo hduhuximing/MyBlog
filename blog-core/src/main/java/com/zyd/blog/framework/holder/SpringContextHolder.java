@@ -6,10 +6,10 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
 /**
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
- * @website https://www.zhyd.me
+
+
  * @version 1.0
- * @date 2018/4/16 16:26
+ * @date 2019/4/16 16:26
  * @since 1.0
  * @description 采用开放的Aware接口获取到内置的ApplicationContext
  */

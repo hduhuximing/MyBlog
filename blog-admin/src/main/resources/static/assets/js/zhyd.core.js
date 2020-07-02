@@ -2,10 +2,10 @@
  *
  * 项目核心Js类，负责项目前端模板方面的初始化等操作
  *
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
- * @website https://www.zhyd.me
+
+
  * @version 1.0
- * @date 2018-04-25
+ * @date 2019-04-25
  * @since 1.0
  */
 var editor = null, simplemde = null;
@@ -179,7 +179,7 @@ var zhyd = window.zhyd || {
                 if (result.status == 200) {
                     var imgFullPath = result.data;
                     curEditor.txt.append('<img src="' + imgFullPath + '" alt="" style="max-width: 100%;height: auto;border-radius: 6px;"/>');
-                    // 解决上传完图片如果未进行其他操作，则不会触发编辑器的“change”事件，导致实际文章内容中缺少最后上传的图片文件 2018-07-13
+                    // 解决上传完图片如果未进行其他操作，则不会触发编辑器的“change”事件，导致实际文章内容中缺少最后上传的图片文件 2019-07-13
                     $contentBox.val(editor.txt.html());
                 } else {
                     $.alert.error(result.message);

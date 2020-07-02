@@ -1,13 +1,6 @@
 package com.zyd.blog.business.enums;
 
-/**
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
- * @version 1.0
- * @website https://www.zhyd.me
- * @date 2018/4/16 16:26
- * @since 1.0
- * @description 对不同的上传进行区分前缀 区分不同的数据分布地点
- */
+
 public enum FileUploadType {
     COMMON("oneblog/"),
     QRCODE("oneblog/qrcode/"),

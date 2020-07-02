@@ -21,9 +21,9 @@ import org.springframework.util.StringUtils;
 import java.util.Map;
 
 /**
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
+
  * @version 1.0
- * @website https://www.zhyd.me
+
  * @date 2019/2/11 14:26
  * @description 实现上传选择，根据configService获取配置的参数
  * @since 1.8'

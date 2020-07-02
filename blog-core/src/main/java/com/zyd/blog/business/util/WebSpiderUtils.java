@@ -11,9 +11,9 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
+
  * @version 1.0
- * @date 2018/5/7 11:25
+ * @date 2019/5/7 11:25
  * @since 1.0
  */
 public class WebSpiderUtils {
@@ -103,7 +103,7 @@ public class WebSpiderUtils {
         spider.put("python-requests", "python爬虫");
         spider.put("python", "python爬虫");
         spider.put("Test Certificate Info", "测试证书信息");
-        spider.put("w3m/0.5.3+git20180125", "w3m");
+        spider.put("w3m/0.5.3+git20190125", "w3m");
         spider.put("wget", "wget");
         spider.put("gnu.org/gnu/wget", "wget");
         spider.put("WinHTTP", "WinHTTP");

@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * <p>Tomcat相关配置</p>
  * @author zmingchun
- * @version 1.0 (2018/6/20 10:55)
+ * @version 1.0 (2019/6/20 10:55)
  */
 @Configuration
 public class TomcatConfig {

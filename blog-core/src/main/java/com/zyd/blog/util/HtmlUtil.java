@@ -2,7 +2,6 @@ package com.zyd.blog.util;
 
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 import org.springframework.util.StringUtils;
 
 import java.util.regex.Matcher;
@@ -11,8 +10,8 @@ import java.util.regex.Pattern;
 /**
  * @author yadong.zhang email:yadong.zhang0415(a)gmail.com
  * @version 1.0
- * @website https://www.zhyd.me
- * @date 2018/1/19 10:32
+
+ * @date 2019/1/19 10:32
  * @since 1.0
  */
 public class HtmlUtil {

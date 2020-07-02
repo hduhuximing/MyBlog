@@ -1,12 +1,6 @@
 package com.zyd.blog.business.enums;
 
-/**
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
- * @version 1.0
- * @website https://www.zhyd.me
- * @date 2019/2/12 10:20
- * @since 1.8
- */
+
 public enum ExtraCommentTypeEnum {
 
     GUESTBOOK(-1L, "/guestbook", "留言板 "),

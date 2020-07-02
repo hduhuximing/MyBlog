@@ -15,10 +15,10 @@ import java.util.Set;
  * 避免了多个项目共用一个redis database所潜在的问题<br/>
  * 2.修改expire参数，默认值为30天 = 2592000s <br/>
  *
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
+
  * @version 1.0
- * @website https://www.zhyd.me
- * @date 2018/6/12 14:22
+
+ * @date 2019/6/12 14:22
  * @since 1.0
  */
 public class CustomRedisManager extends RedisManager {

@@ -18,10 +18,10 @@ import javax.servlet.ServletContextEvent;
 /**
  * 程序启动后通过ApplicationRunner处理一些事务
  *
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
+
  * @version 1.0
- * @website https://www.zhyd.me
- * @date 2018/6/6 16:07
+
+ * @date 2019/6/6 16:07
  * @since 1.0
  */
 @Slf4j

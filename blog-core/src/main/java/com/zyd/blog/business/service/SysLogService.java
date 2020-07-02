@@ -10,7 +10,7 @@ import com.zyd.blog.framework.object.AbstractService;
 /**
  * @author yadong.zhang email:yadong.zhang0415(a)gmail.com
  * @version 1.0
- * @date 2018/01/09 17:40
+ * @date 2019/01/09 17:40
  * @since 1.0
  */
 public interface SysLogService extends AbstractService<Log, Integer> {

@@ -10,10 +10,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
+
  * @version 1.0
- * @website https://www.zhyd.me
- * @date 2018/9/6 11:31
+
+ * @date 2019/9/6 11:31
  * @since 1.8
  */
 public class ImageDownloadUtilTest {
@@ -33,8 +33,8 @@ public class ImageDownloadUtilTest {
     @Test
     public void csdnTest() {
         String html = "<p>视频如下图所示（点击下图查看视频示例）： <br>\n" +
-                "<a href=\"https://gitee.com/yadong.zhang/static/raw/master/dblog/DBlog-%E6%96%87%E7%AB%A0%E6%90%AC%E8%BF%90%E5%B7%A5%E7%A4%BA%E4%BE%8B.webm\" rel=\"nofollow\" target=\"_blank\"><img src=\"https://images.gitee.com/uploads/images/2018/0824/161625_250da176_784199.png\" alt=\"输入图片说明\" title=\"屏幕截图.png\"></a></p><p>使用时，只需要手动指定以下几项配置即可 <br>\n" +
-                "<img src=\"https://img-blog.csdn.net/20180824171459468?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTExOTc0NDg=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70\" alt=\"这里写图片描述\" title=\"\"> <br>\n" +
+                "<a href=\"https://gitee.com/yadong.zhang/static/raw/master/dblog/DBlog-%E6%96%87%E7%AB%A0%E6%90%AC%E8%BF%90%E5%B7%A5%E7%A4%BA%E4%BE%8B.webm\" rel=\"nofollow\" target=\"_blank\"><img src=\"https://images.gitee.com/uploads/images/2019/0824/161625_250da176_784199.png\" alt=\"输入图片说明\" title=\"屏幕截图.png\"></a></p><p>使用时，只需要手动指定以下几项配置即可 <br>\n" +
+                "<img src=\"https://img-blog.csdn.net/20190824171459468?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTExOTc0NDg=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70\" alt=\"这里写图片描述\" title=\"\"> <br>\n" +
                 "其中，这四处配置含义如下：</p>";
         parseImgForHtml(html, "https://blog.csdn.net/u011197448/article/details/82022098");
     }
@@ -42,7 +42,7 @@ public class ImageDownloadUtilTest {
     @Test
     public void giteeTest() {
         String html = "<p>视频如下图所示（点击下图查看视频示例）： <br>\n" +
-                "<a href=\"https://gitee.com/yadong.zhang/static/raw/master/dblog/DBlog-%E6%96%87%E7%AB%A0%E6%90%AC%E8%BF%90%E5%B7%A5%E7%A4%BA%E4%BE%8B.webm\" rel=\"nofollow\" target=\"_blank\"><img src=\"https://images.gitee.com/uploads/images/2018/0824/161625_250da176_784199.png\" alt=\"输入图片说明\" title=\"屏幕截图.png\"></a></p>";
+                "<a href=\"https://gitee.com/yadong.zhang/static/raw/master/dblog/DBlog-%E6%96%87%E7%AB%A0%E6%90%AC%E8%BF%90%E5%B7%A5%E7%A4%BA%E4%BE%8B.webm\" rel=\"nofollow\" target=\"_blank\"><img src=\"https://images.gitee.com/uploads/images/2019/0824/161625_250da176_784199.png\" alt=\"输入图片说明\" title=\"屏幕截图.png\"></a></p>";
         parseImgForHtml(html, null);
     }
 

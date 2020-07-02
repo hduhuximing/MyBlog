@@ -1,15 +1,7 @@
 package com.zyd.blog.framework.tag;
 
 import freemarker.core.Environment;
-import freemarker.template.Configuration;
-import freemarker.template.DefaultObjectWrapper;
-import freemarker.template.DefaultObjectWrapperBuilder;
-import freemarker.template.SimpleScalar;
-import freemarker.template.TemplateDirectiveBody;
-import freemarker.template.TemplateDirectiveModel;
-import freemarker.template.TemplateException;
-import freemarker.template.TemplateModel;
-import freemarker.template.TemplateModelException;
+import freemarker.template.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.util.StringUtils;
 
@@ -22,10 +14,10 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * 所有自定义标签的父类，负责调用具体的子类方法
  *
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
+
  * @version 1.0
- * @website https://www.zhyd.me
- * @date 2018/9/18 16:19
+
+ * @date 2019/9/18 16:19
  * @since 1.8
  * @description 公共根类
  */
